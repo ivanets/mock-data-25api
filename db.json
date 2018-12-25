@@ -95,9 +95,6 @@
                 {
                     "id": 2,
                     "title": "Инженерные решения",
-                    "is_paid": false,
-                    "amount": 750000,
-                    "payment_due": 20181130,
                     "starts_at": 20181123,
                     "ends_at": 20181211,
                     "items": [{
