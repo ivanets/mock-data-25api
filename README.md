@@ -43,7 +43,7 @@
 
 | HTTP Code | Description | Reason |
 | ------ | ------ | ------ |
-| 500 | Internal Server Error | |
+| 500 | Internal Server Error | Something went really wrong. **[Example](https://my-json-server.typicode.com/ivanets/mock-data-25api/error)** |
 
 ### Todos
 
