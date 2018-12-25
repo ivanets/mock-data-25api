@@ -22,7 +22,7 @@
 | **POST** | `/login` | `Content-Type: application/json` | `{ "phone": "74955454927", "password": "p@ssW0rd"  }` | `{ "token", "...", "user": { ... } }` | **[/login](https://my-json-server.typicode.com/ivanets/mock-data-25api/login)** |
 | **GET** | `/streams` | `Authorization: {{ JWTToken }}` | | `{ "count": 0, "streams": [ ... ] }` | **[/streams](https://my-json-server.typicode.com/ivanets/mock-data-25api/streams)** |
 | **GET** | `/bills/:stage_id` | `Authorization: {{ JWTToken }}` | | `{ "count": 0, "bills": [ ... ] }` | **[/bills/1](https://my-json-server.typicode.com/ivanets/mock-data-25api/bills/1)** or **[/bills/2](https://my-json-server.typicode.com/ivanets/mock-data-25api/bills/2)** |
-| **GET** | `/stages` | `Authorization: {{ JWTToken }}` | | `{ "count": 0, "stages": [ ... ] }` | **[/stages](https://my-json-server.typicode.com/ivanets/mock-data-25api/streams)** |
+| **GET** | `/stages` | `Authorization: {{ JWTToken }}` | | `{ "count": 0, "stages": [ ... ] }` | **[/stages](https://my-json-server.typicode.com/ivanets/mock-data-25api/stages)** |
 
  ### Global rules
 

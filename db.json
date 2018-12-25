@@ -17,17 +17,17 @@
             "streams": [{
                     "id": 1,
                     "name": "Камера №1",
-                    "link": "https://open.ivideon.com/embed/v2/server=af82b03211d58eabe026e28fde4dc81c&camera=589824"
+                    "link": "https://open.ivideon.com/embed/v2/?server=af82b03211d58eabe026e28fde4dc81c&camera=589824"
                 },
                 {
                     "id": 2,
                     "name": "Камера №2",
-                    "link": "https://open.ivideon.com/embed/v2/server=af82b03211d58eabe026e28fde4dc81c&camera=589824"
+                    "link": "https://open.ivideon.com/embed/v2/?server=af82b03211d58eabe026e28fde4dc81c&camera=589824"
                 },
                 {
                     "id": 3,
                     "name": "Камера №3",
-                    "link": "https://open.ivideon.com/embed/v2/server=af82b03211d58eabe026e28fde4dc81c&camera=589824"
+                    "link": "https://open.ivideon.com/embed/v2/?server=af82b03211d58eabe026e28fde4dc81c&camera=589824"
                 }
             ]
         }
