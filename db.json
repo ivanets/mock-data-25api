@@ -1,5 +1,6 @@
 {
 	"login": {
+		"token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwibmFtZSI6ItCY0J8g0JjQstCw0L3QvtCyINCY0LLQsNC9INCY0LLQsNC90L7QstC40YcifQ.78iEN0ufW31baV7R5DUIInDmgzYO1n_YhTMGrMHg2cc",
 		"user": {
 			"id": 1,
 			"name": "ИП Иванов Иван Иванович"
