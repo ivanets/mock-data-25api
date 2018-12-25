@@ -10,7 +10,7 @@
 
 ```js
 {
-    "status": "ok", // "ok" or "error" (error codesdescribed below)
+    "status": "ok", // "ok" or "error" (error codes described below)
     "data": { ... } // Response data
 }
 ```
