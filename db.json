@@ -36,6 +36,9 @@
             "id": 1,
             "status": "ok",
             "data": {
+                "is_paid": true,
+                "amount": 350000,
+                "payment_due": 20181122,
                 "bills": [{
                         "id": 1,
                         "url": "https://mediaserver.link/filename1.zip",
@@ -68,26 +71,22 @@
             "stages": [{
                     "id": 1,
                     "title": "Архитектурные решения",
-                    "is_paid": true,
-                    "amount": 350000,
-                    "payment_due": 20181122,
                     "starts_at": 20181111,
                     "ends_at": 20181201,
-                    "items": [{
+                    "documents": [{
                             "id": 1,
-                            "order": 0,
                             "is_signed": true,
+                            "url": "https://mediaserver.link/filename1.zip",
                             "title": "Архитектурные решения"
                         },
                         {
                             "id": 2,
-                            "order": 1,
                             "is_signed": true,
+                            "url": "https://mediaserver.link/filename2.zip",
                             "title": "Система электроснабжения"
                         },
                         {
                             "id": 3,
-                            "order": 2,
                             "is_signed": false,
                             "title": "Водоснабжение и канализация"
                         }
@@ -103,13 +102,11 @@
                     "ends_at": 20181211,
                     "items": [{
                             "id": 3,
-                            "order": 0,
                             "is_signed": true,
                             "title": "Сеть"
                         },
                         {
                             "id": 4,
-                            "order": 1,
                             "is_signed": true,
                             "title": "Сигнализация"
                         }
