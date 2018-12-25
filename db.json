@@ -28,6 +28,32 @@
             ]
         }
     },
+    "bills": [{
+            "id": 1,
+            "status": "ok",
+            "data": {
+                "bills": [{
+                        "id": 1,
+                        "url": "https://mediaserver.link/filename1.zip",
+                        "created_at": 20181221,
+                        "title": "Счет за 1 этап от 15. 12. 2018"
+                    },
+                    {
+                        "id": 2,
+                        "url": "https://mediaserver.link/filename2.zip",
+                        "created_at": 20181221,
+                        "title": "Счет за 1 этап от 15. 12. 2018"
+                    }
+                ]
+            }
+        },
+        {
+            "id": 2,
+            "data": {
+                "bills": []
+            }
+        }
+    ],
     "stages": {
         "status": "ok",
         "data": {
@@ -56,19 +82,6 @@
                             "order": 2,
                             "is_signed": false,
                             "title": "Водоснабжение и канализация"
-                        }
-                    ],
-                    "documents": [{
-                            "id": 1,
-                            "url": "https://mediaserver.link/filename1.zip",
-                            "created_at": 20181221,
-                            "title": "Счет за 1 этап от 15. 12. 2018"
-                        },
-                        {
-                            "id": 2,
-                            "url": "https://mediaserver.link/filename2.zip",
-                            "created_at": 20181221,
-                            "title": "Счет за 1 этап от 15. 12. 2018"
                         }
                     ]
                 },
