@@ -62,8 +62,8 @@
 			"title": "Счет за 1 этап от 15. 12. 2018"
 		}
 	],
-	"stageitems": [{
-			"id": 1,
+	"items": [{
+			"stage_id": 1,
 			"items": [{
 					"id": 1,
 					"order": 0,
@@ -87,7 +87,7 @@
 			]
 		},
 		{
-			"id": 2,
+			"stage_id": 2,
 			"items": [{
 					"id": 3,
 					"stage_id": 1,
