@@ -26,9 +26,9 @@
 
  ### Global rules
 
-| Type | Route | Response (`full`) |
-| ------ | ------ | ------ |
-| **\*** | `/error` | `{ "status": "error", "message": "..." }`
+| Type | Route | Response (`full`) | Example |
+| ------ | ------ | ------ | ------ |
+| **\*** | `*` | `{ "status": "error", "message": "..." }` | **[/error](https://my-json-server.typicode.com/ivanets/mock-data-25api/error)** |
 
 ## Error codes
 
