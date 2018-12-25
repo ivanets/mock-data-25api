@@ -36,17 +36,20 @@
             "id": 1,
             "status": "ok",
             "data": {
-                "is_paid": true,
-                "amount": 350000,
-                "payment_due": 20181122,
                 "bills": [{
                         "id": 1,
+                        "is_paid": true,
+                        "amount": 350000,
+                        "payment_due": 20181122,
                         "url": "https://mediaserver.link/filename1.zip",
                         "created_at": 20181221,
                         "title": "Счет за 1 этап от 15. 12. 2018"
                     },
                     {
                         "id": 2,
+                        "is_paid": true,
+                        "amount": 100000,
+                        "payment_due": 20181130,
                         "url": "https://mediaserver.link/filename2.zip",
                         "created_at": 20181221,
                         "title": "Счет за 1 этап от 15. 12. 2018"
@@ -56,8 +59,20 @@
         },
         {
             "id": 2,
-            "status": "error",
-            "message": "There is no bills for stage 2"
+            "status": "ok",
+            "data": {
+                "bills": [
+                    {
+                        "id": 3,
+                        "is_paid": false,
+                        "amount": 750000,
+                        "payment_due": 20181130,
+                        "url": "https://mediaserver.link/filename2.zip",
+                        "created_at": 20181221,
+                        "title": "Счет за 2 этап от 21. 12. 2018"
+                    }
+                ]
+            }
         },
         {
             "id": 3,
@@ -73,7 +88,7 @@
                     "title": "Архитектурные решения",
                     "starts_at": 20181111,
                     "ends_at": 20181201,
-                    "documents": [{
+                    "items": [{
                             "id": 1,
                             "is_signed": true,
                             "url": "https://mediaserver.link/filename1.zip",
@@ -87,7 +102,7 @@
                         },
                         {
                             "id": 3,
-                            "is_signed": false,
+                            "is_signed": true,
                             "title": "Водоснабжение и канализация"
                         }
                     ]
@@ -98,17 +113,23 @@
                     "starts_at": 20181123,
                     "ends_at": 20181211,
                     "items": [{
-                            "id": 3,
-                            "is_signed": true,
+                            "id": 4,
+                            "is_signed": false,
                             "title": "Сеть"
                         },
                         {
-                            "id": 4,
-                            "is_signed": true,
+                            "id": 5,
+                            "is_signed": false,
                             "title": "Сигнализация"
                         }
-                    ],
-                    "documents": []
+                    ]
+                },
+                {
+                    "id": 3,
+                    "title": "Отделочные работы",
+                    "starts_at": 20181123,
+                    "ends_at": 20181211,
+                    "items": []
                 }
             ]
         }
