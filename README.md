@@ -10,8 +10,7 @@
 
 ```js
 {
-    "code": 200, // 200 if success, or error code (described below)
-    "status": "ok", // "ok" or "error"
+    "status": "ok", // "ok" or "error" (error codesdescribed below)
     "data": { ... } // Response data
 }
 ```
@@ -30,9 +29,11 @@
 
 | Type | Route | Response (`full`) |
 | ------ | ------ | ------ |
-| **\*** | `*` | `{ "code": 500, "status": "error", "message": "..." }`
+| **\*** | `*` | `{ "status": "error", "message": "..." }`
 
 ## Error codes
+
+> As HTTP response code
 
 | HTTP Code | Description | Reason |
 | ------ | ------ | ------ |
