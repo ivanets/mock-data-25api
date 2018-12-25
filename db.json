@@ -57,6 +57,7 @@
             "message": "There is no bills for stage 2"
         },
         {
+            "id": 3,
             "status": "error",
             "message": "There is no bills for stage 3"
         }
