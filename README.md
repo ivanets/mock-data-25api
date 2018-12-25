@@ -24,7 +24,7 @@
 | **GET** | `/streams` | `Authorization: {{ JWTToken }}` | | `{ "count": 0, "streams": [ ... ] }` | **[/streams](https://my-json-server.typicode.com/ivanets/mock-data-25api/streams)** |
 | **GET** | `/stages` | `Authorization: {{ JWTToken }}` | | `{ "count": 0, "stages": [ ... ] }` | **[/stages](https://my-json-server.typicode.com/ivanets/mock-data-25api/streams)** |
 | **GET** | `/items/:stage_id` | `Authorization: {{ JWTToken }}` | | `{ "count": 0, "items": [ ... ] }` | **[/items/1](https://my-json-server.typicode.com/ivanets/mock-data-25api/items/1)** or **[/items/2](https://my-json-server.typicode.com/ivanets/mock-data-25api/items/2)** |
-| **GET** | `/bills/:stage_id` | `Authorization: {{ JWTToken }}` | | `{ "count": 0, "bills": [ ... ] }` | **[/bills/1](https://my-json-server.typicode.com/ivanets/mock-data-25api/bills/1)** or **[/bills/2](https://my-json-server.typicode.com/ivanets/mock-data-25api/bills/2)** |
+| **GET** | `/bills/:stage_id` | `Authorization: {{ JWTToken }}` | | `{ "count": 0, "bills": [ ... ] }` | **[/bills](https://my-json-server.typicode.com/ivanets/mock-data-25api/bills)** |
 
  ### Global rules
 
@@ -37,7 +37,7 @@
 | HTTP Code | Description | Reason |
 | ------ | ------ | ------ |
 | 401 | Not authorized | Invalid JWT token in request `Authorization` header |
-| 404 | Not found | There is no `bills` for third stage. Requested: **[/bills/3](https://my-json-server.typicode.com/ivanets/mock-data-25api/bills/3)** |
+| 404 | Not found | There is no `items` for third stage but requested: **[/items/3](https://my-json-server.typicode.com/ivanets/mock-data-25api/items/3)** |
 
 ### In all other cases
 
