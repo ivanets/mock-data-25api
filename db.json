@@ -1,7 +1,7 @@
 {
     "error": {
         "status": "error",
-        "message": "There is no bills for stage 3"
+        "message": "Internal Server Error"
     },
     "login": {
         "status": "ok",
@@ -53,9 +53,12 @@
         },
         {
             "id": 2,
-            "data": {
-                "bills": []
-            }
+            "status": "error",
+            "message": "There is no bills for stage 2"
+        },
+        {
+            "status": "error",
+            "message": "There is no bills for stage 3"
         }
     ],
     "stages": {
