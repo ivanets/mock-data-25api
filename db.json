@@ -1,14 +1,113 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
-  ],
-  "profile": {
-    "name": "typicode"
+    "login":{
+      "user":{
+        "id":1,
+        "name":"ИП Иванов Иван Иванович"
+      }
+    },
+    "me":{
+      "id":1,
+      "name":"ИП Иванов Иван Иванович"
+    },
+    "stream":[
+      {
+        "id":1,
+        "user_id":1,
+        "name":"Камера №1",
+        "stream_url":"https://open.ivideon.com/embed/v2/server=af82b03211d58eabe026e28fde4dc81c&camera=589824"
+      },
+      {
+        "id":2,
+        "user_id":1,
+        "name":"Камера №2",
+        "stream_url":"https://open.ivideon.com/embed/v2/server=af82b03211d58eabe026e28fde4dc81c&camera=589824"
+      },
+      {
+        "id":3,
+        "user_id":1,
+        "name":"Камера №3",
+        "stream_url":"https://open.ivideon.com/embed/v2/server=af82b03211d58eabe026e28fde4dc81c&camera=589824"
+      }
+    ],
+    "stage":[
+      {
+        "id":1,
+        "user_id":1,
+        "label":"Архитектурные решения",
+        "is_paid":true,
+        "amount":350000,
+        "payment_due":1543582448,
+        "starts_at":1541940848,
+        "ends_at":1543668848
+      },
+      {
+        "id":2,
+        "user_id":1,
+        "label":"Инженерные решения",
+        "is_paid":false,
+        "amount":750000,
+        "payment_due":1543582448,
+        "starts_at":1542977648,
+        "ends_at":1544532848
+      }
+    ],
+    "bill":[
+      {
+        "id":1,
+        "user_id":1,
+        "stage_id":1,
+        "url":"https://mediaserver.link/filename.zip",
+        "created_at":1544878448,
+        "title":"Счет за 1 этап от 15. 12. 2018"
+      },
+      {
+        "id":2,
+        "user_id":1,
+        "stage_id":1,
+        "url":"https://mediaserver.link/filename.zip",
+        "created_at":1544878448,
+        "title":"Счет за 1 этап от 15. 12. 2018"
+      }
+    ],
+    "item":{
+      "1":[
+        {
+          "id":1,
+          "stage_id":1,
+          "order":0,
+          "is_signed":true,
+          "title":"Архитектурные решения"
+        },
+        {
+          "id":2,
+          "stage_id":1,
+          "order":1,
+          "is_signed":true,
+          "title":"Система электроснабжения"
+        },
+        {
+          "id":3,
+          "stage":1,
+          "order":2,
+          "is_signed":false,
+          "title":"Водоснабжение и канализация"
+        }
+      ],
+      "2":[
+        {
+          "id":3,
+          "stage_id":1,
+          "order":0,
+          "is_signed":true,
+          "title":"Сеть"
+        },
+        {
+          "id":4,
+          "stage_id":1,
+          "order":1,
+          "is_signed":true,
+          "title":"Сигнализация"
+        }
+      ]
+    }
   }
-}
